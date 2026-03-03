@@ -1,0 +1,180 @@
+﻿.skip-to-main-content-link {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    opacity: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+    .skip-to-main-content-link:focus {
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 1;
+    }
+
+.search-results-month-name {
+    font-size: 12px !important;
+}
+
+.registration-form-field-small-description {
+    font-size: 12px !important;
+}
+
+.btn {
+    text-decoration: underline;
+}
+
+.footer__socials_link.linkedin:before {
+    background-image: url('../img/linkedin-dark.svg');
+}
+
+.footer__socials_link.facebook:before {
+    background-image: url('../img/facebook-dark.svg');
+}
+
+.footer__socials_link.twitter:before {
+    background-image: url('../img/twitter-x-dark.svg');
+}
+
+.login-page .login-form__btn,
+.login-page .register-form__btn {
+    background-color: #d91c5c;
+    color: #fff;
+}
+
+.login-page .login-form__field input,
+.login-page .register-form__field input {
+    border-color: #d91c5c;
+}
+
+.login-page .login-form__forgot-password {
+    border-color: #d91c5c;
+}
+
+.login-page__register-form {
+    background-color: rgba(217, 28, 92, 0.1);
+}
+
+@media (min-width: 992px) {
+    .login-page__register-form:before {
+        background-color: #d91c5c;
+    }
+}
+
+.registration-form .registration-form__section {
+    border-color: #d91c5c;
+}
+
+.registration-form .registration-form__section-title:after {
+    background-image: url('../img/pink_chevron.svg');
+}
+
+.registration-form .registration-form__btn {
+    background-color: #d91c5c;
+    color: #fff;
+}
+
+.registration-form .registration-form__field input,
+.registration-form .registration-form__field textarea {
+    border-color: #d91c5c;
+}
+
+.registration-form .registration-form__field .custom-select__select select {
+    border-color: #d91c5c;
+}
+
+.registration-form .registration-form__field .custom-select__select:after {
+    border-color: #d91c5c;
+    background-image: url('../img/pink_chevron.svg');
+}
+
+.registration-form .registration-header__step span {
+    border-color: #d91c5c;
+}
+
+.registration-form .registration-header__step.active span {
+    background-color: #d91c5c;
+}
+
+.registration-form .registration-header__step span:after {
+    background-color: #d91c5c;
+}
+
+.registration-form .custom-checkbox__label:before {
+    border-color: #d91c5c;
+}
+
+.filters--search .filters--search_input {
+    border: 1px solid #000 !important;
+}
+
+.microsite-slider .carousel-control-next-icon, .microsite-slider .carousel-control-prev-icon {
+    background-image: url('../img/slider-chevron-black.svg') !important;
+}
+
+.event-details .icon--date:before {
+    background-image: url('../img/calendar-pink.svg') !important;
+}
+
+.event-details .icon--time:before {
+    background-image: url('../img/clock-pink.svg') !important;
+}
+
+.event-details .icon--location:before {
+    background-image: url('../img/location-pink.svg') !important;
+}
+
+.event-details .icon--speaker:before {
+    background-image: url('../img/microphone-pink.svg') !important;
+}
+
+.registration-form .registration-form__field input::placeholder,
+.registration-form .registration-form__field textarea::placeholder {
+    color: #757575 !important;
+}
+
+.field-validation-error {
+    color: #000 !important;
+}
+
+.content__inner ol li:before {
+    color: #000;
+}
+
+.stats-block__number {
+    color: #d91c5c;
+}
+
+.people-slider__body h2 {
+    font-size: 1.5em;
+}
+
+.stats-block__link {
+    box-shadow: inset 0 -2px 0 0 #d91c5c;
+    padding-bottom: .1rem;
+}
+
+.form-custom-select-extra select {
+    border: none !important;
+    border-bottom: 2px solid #d91c5c !important;
+}
+
+.portal-completion__alert .registration-header__step.active-partial span {
+    border-color: #d91c5c;
+}
+
+.registration-form .registration-header__step.active span {
+    background-color: #d91c5c;
+}
+
+.portal-completion__alert .registration-header__step.active span:after {
+    background-color: #d91c5c;
+}
+
+.portal-completion__alert .registration-header__step.active span {
+    border-color: #d91c5c;
+}
